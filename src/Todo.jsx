@@ -34,11 +34,11 @@ const TodoApp = () => {
 
   const addTodoHandler = () => {
     if (!title.trim()) {
-      alert("No todos, please type something");
+      alert("Толук жаз");
       return;
     }
     if (!date) {
-      alert("No date, please enter a date");
+      alert("датасын танда");
       return;
     }
     const newTodo = {
