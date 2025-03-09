@@ -1,0 +1,79 @@
+*{                                                                                                                                                                                                                        
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+body{
+    background-image: url('./image/francestr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px #f6fbd6;
+}
+
+.todoBox{
+    width: 75%;
+    background: #f9ffac;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.inputsBlock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    gap: 1rem;
+}
+.inputsBlock input {
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: none;
+}
+.btn{
+    padding: 5px 0;
+    background-color: #867f02;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all linear 0.5s;
+}
+.btn:hover{
+    background-color: #ffea00;
+}
+
+
+.todoList {
+    padding: 20px;
+    list-style: none;
+    background-color: #d8ce00;
+    border-radius: 12px;
+    margin-top: 20px;
+    word-break: break-all;
+}
+/* .todoItem{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 0.2fr 0.5fr;
+    margin-bottom: 1rem;
+    word-break: break-all;
+
+} */
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: blueviolet;
+}
+
